@@ -1,0 +1,286 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    /* overflow-x: hidden; */
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+.div-height {
+    height: 480px;
+}
+.img-height {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+/* ################################## navbar ############################################### */
+.nav-background {
+    /* background-color: rgb(6, 196, 6); */
+    background-color: #84a60d;
+}
+.nav-link:hover {
+    color: #ff6600 !important;
+  }
+
+/* ############################## icon section ################################################# */
+.icon-section {
+    background-color: green;
+    color: white;
+}
+
+/* ############################# products section ################################################### */
+.background-product-img {
+    padding: 70px 0;
+    background-image: url('../images/blur2.jpeg');
+    background-size: cover;
+}
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* spacing between text and lines */
+    margin: 40px 0;
+  }
+
+  .section-title {
+    margin: 0;
+    font-size: 2rem;
+    white-space: nowrap;
+  }
+
+  .line {
+    flex: 1;
+    height: 2px;
+    background-color: #ff6600;
+    max-width: 80px; /* Resizing the line */
+  }
+
+  /* visit our store */
+  .background-set {
+    background-image: url('../images/Agr_back.jpeg');
+    background-size: cover;
+    padding: 70px 0;
+  }
+  .card-hover:hover {
+    background-color: #ff6600;
+    color: white;
+  }
+
+  /* ############################################# about us ##################################### */
+  .about-bg {
+    background-image: url('../images/footer.png');
+    background-size: cover;
+    padding: 70px 0;
+    background-color: darkgreen;
+  }
+  .card-border-about {
+    border-color: #ff6600;
+    border-width: 5px;
+    border-style: ridge;
+  }
+  .news-border {
+    border-color: #ff6600;
+    border-style: dashed;
+    border-width: 2px;
+  }
+  .news-border:hover {
+    background-color: green;
+    color: white;
+    border-style: none;
+  }
+  .section-news-bg {
+    background-image: url('../images/pic9.jpg');
+    background-size: cover;
+    padding: 70px 0;
+  }
+  /*team section */
+  .line-team {
+    flex: 1;
+    height: 2px;
+    background-color: white;
+    max-width: 80px; /* resizing the line */
+  }
+.team_section {
+  text-align: center;
+  background-color: #ff6600;
+  color: #ffffff;
+}
+
+.team_section .heading_container {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.team_section .team_container {
+  padding: 0 15px;
+}
+
+.team_section .team_container .box {
+  padding: 35px 0 0 0;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  margin-top: 45px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#592f00),
+    to(#fc6603)
+  );
+  background: linear-gradient(to bottom, #592f00, #fc6603);
+}
+
+.team_section .team_container .box .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.team_section .team_container .box .img-box img {
+  width: 120px;
+  border-radius: 100%;
+  border: 5px solid #ffffff;
+}
+
+.team_section .team_container .box .detail-box {
+  margin: 25px 0;
+}
+
+.team_section .team_container .box .detail-box h5 {
+  color: #f9fbfc;
+  font-weight: 600;
+  position: relative;
+}
+
+.team_section .team_container .box .social_box {
+  padding: 10px 45px 20px 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.team_section .team_container .box .social_box a {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.team_section .team_container .box .social_box a:hover {
+  color: #00bbf0;
+}
+/*team section end*/
+
+/* ########################################## services section #################################### */
+.card-decoration {
+  border-style: none;
+  box-shadow: 5px 5px 10px #808080;
+}
+.card-decoration:hover {
+  background-color: #84a60d;
+  color: white;
+}
+.services-bg {
+  background-image: url('../images/carousel-1.jpg');
+  background-size: cover;
+  padding: 70px 0;
+}
+
+/* ########################################## contact us section #################################### */
+#map { 
+  height: 350px; 
+}
+.column-border {
+  border-style: ridge;
+  border-color: #fc6603;
+}
+.contacts-bg {
+  background-image: url('../images/ff12.jpeg');
+  background-size: cover;
+  padding: 70px 0;
+}
+
+
+/* ################################################# products section ########################################## */
+.card-style-border {
+  border-color: green;
+  border-style: ridge;
+}
+.background-top-contents {
+  background-image: url('../images/Agr_back.jpeg');
+  background-size: cover;
+  padding: 70px 0;
+}
+.product-bg {
+  background-image: url('../images/bg-bg-01.jpg');
+  background-size: cover;
+  padding: 70px 0;
+  
+}
+.product-head-bg {
+  background-color: #07b015;
+}
+
+.card-product {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.card-product img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.card-product:hover img {
+  transform: scale(1.05);
+}
+
+.card-product .text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-product:hover .text-overlay {
+  opacity: 1;
+}
+
+  /* ########################################## footer ########################################## */
+  footer {
+    background-color: black; 
+    padding: 10px 0;
+  }
+
+  .copyright-content {
+    background-color: #ff6600;
+  }

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agriculture</title>
+    <!-- links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"
+    />
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+        <!-- leaflet css -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <!-- end links -->
+  </head>
+  <body>
+    <!-- ################################################## navbar ########################################### -->
+    <nav class="navbar navbar-expand-sm navbar-dark nav-background">
+      <div class="container">
+        <a class="navbar-brand text-uppercase fw-bolder" href="#">GH-FARMERS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon fw-bold"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="services.html"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="product.html"
+                >Products</a
+              >
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="contact.html"
+                >Cotacts</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- ################################################## contacts ########################################### -->
+    <main>
+        <section class="contacts-bg">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="text-center">
+                        <h1 class="text-capitalize text-white fw-bold display-2">Our Contacts</h1>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-white fw-bold fs-1">Feel free to contact us today</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light">
+            <div class="container py-4">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-7">
+                      <div class="py-2 mt-3">
+                        <div id="map">
+                        </div>
+                      </div>
+                        <!-- <div id="map">
+                        </div> -->
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <div class="py-2 mt-3 column-border">
+                            <div class="text-center mb-2">
+                                <p class="fs-4 fw-bold" style="color: #84a60d;">Get in touch with us now</p>
+                            </div>
+                            <div class="text-center mb-5">
+                                <h5 class="text-uppercase mb-2">OUR OFFICE</h5>
+                                <p class="lead text-capitalize">123 Street, Nairobi, Kenya</p>
+                            </div>
+                            <div class="text-center mb-5">
+                                <h5 class="text-uppercase mb-2">CALL US</h5>
+                                <p class="lead">+254 704895174</p>
+                            </div>
+                            <div class="text-center mb-3">
+                                <h5 class="text-uppercase mb-2">EMAIL US</h5>
+                                <p class="lead">mohammedtsuma201@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- ################################################## footer ########################################### -->
+    <div class="my-5">
+      <!-- Footer -->
+      <footer
+        class="text-center text-lg-start text-white"
+      >
+        <!-- container -->
+        <div class="container p-4 pb-0">
+          <!-- Section -->
+          <section class="">
+            <!-- row -->
+            <div class="row">
+              <!-- start column description -->
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">
+                  GreenHarvest
+                </h6>
+                <p>
+                  Supplying fresh, organic, and sustainably grown farm products to nourish your family and support healthy living
+                </p>
+              </div>
+              <!-- end column description -->
+
+              <hr class="w-100 clearfix d-md-none" />
+
+              <!-- column links -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                <p>
+                  <a class="text-white text-decoration-none">Fruits</a>
+                </p>
+                <p>
+                  <a class="text-white text-decoration-none">Vegetables</a>
+                </p>
+                <p>
+                  <a class="text-white text-decoration-none">Milk</a>
+                </p>
+                <p>
+                  <a class="text-white text-decoration-none">Cereals</a>
+                </p>
+              </div>
+              <!-- end column links -->
+
+              <!-- separate column line -->
+              <hr class="w-100 clearfix d-md-none" />
+
+              <!-- stsrt column contact -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Contacts</h6>
+                <p><i class="fas fa-home mr-3"></i> Nairobi, Nai 10025, Kenya</p>
+                <p><i class="fas fa-envelope mr-3"></i> example@gmail.com</p>
+                <p><i class="fas fa-phone mr-3"></i> + 07 048 951 74</p>
+                <p><i class="fas fa-phone mr-3"></i> + 07 048 951 74</p>
+              </div>
+              <!-- end column contact -->
+
+              <!-- start column icons -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+                <!-- Facebook -->
+                <a
+                  class="btn btn-primary btn-floating m-1 text-decoration-none"
+                  style="background-color: #3b5998"
+                  href="#"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+
+                <!-- Twitter -->
+                <a
+                  class="btn btn-primary btn-floating m-1 text-decoration-none"
+                  style="background-color: #55acee"
+                  href="#"
+                  role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+
+                <!-- Google -->
+                <a
+                  class="btn btn-primary btn-floating m-1 text-decoration-none"
+                  style="background-color: #dd4b39"
+                  href="#"
+                  role="button"
+                  ><i class="fab fa-google"></i
+                ></a>
+
+                <!-- Instagram -->
+                <a
+                  class="btn btn-primary btn-floating m-1 text-decoration-none"
+                  style="background-color: #ac2bac"
+                  href="#"
+                  role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+
+                <!-- Linkedin -->
+                <a
+                  class="btn btn-primary btn-floating m-1 text-decoration-none"
+                  style="background-color: #0082ca"
+                  href="#"
+                  role="button"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <!-- Github -->
+                <a
+                  class="btn btn-primary btn-floating m-1 text-decoration-none"
+                  style="background-color: #333333"
+                  href="#"
+                  role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+              <!-- end column icons -->
+            </div>
+            <!--end  row-->
+          </section>
+          <!-- Section: Links -->
+        </div>
+        <!-- end container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3 copyright-content"
+        >
+        <p>&copy; <span id="year"></span> Mohaa Dev. All rights reserved.</p>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
+
+
+    <script src="js/bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <!-- Leaflet js -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+    var map = L.map('map').setView([-4.043740, 39.658871], 13);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+</script>
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+  </body>
+</html>
