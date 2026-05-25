@@ -7,4 +7,20 @@
     <priority>1.0</priority>
   </url>
 
+  <url>
+    <loc>https://agriculturalweb.vercel.app/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://agriculturalweb.vercel.app/services.html</loc>
+  </url>
+
+  <url>
+    <loc>https://agriculturalweb.vercel.app/products.html</loc>
+  </url>
+
+  <url>
+    <loc>https://agriculturalweb.vercel.app/contact.html</loc>
+  </url>
+
 </urlset>
