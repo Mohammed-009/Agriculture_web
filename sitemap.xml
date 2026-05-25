@@ -4,7 +4,6 @@
 
   <url>
     <loc>https://agriculturalweb.vercel.app/</loc>
-    <priority>1.0</priority>
   </url>
 
   <url>
@@ -16,7 +15,7 @@
   </url>
 
   <url>
-    <loc>https://agriculturalweb.vercel.app/products.html</loc>
+    <loc>https://agriculturalweb.vercel.app/product.html</loc>
   </url>
 
   <url>
